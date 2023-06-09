@@ -6,7 +6,7 @@ const initialTaskState = {
 }
 
 function reducer(state, action){
-  switch(state.type){
+  switch(action.type){
     case 'add':
       return {count: state.count+1};
     case 'delete':
